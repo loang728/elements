@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+body {margin: 0;background-color: #fff;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}
+audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}
+a {background-color: transparent;}
+a:active,a:hover {outline: 0;}
+b,strong {font-weight: bold;}
+sub,sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+img {border: 0;}
+svg:not(:root) {overflow: hidden;}
+hr {-moz-box-sizing: content-box;box-sizing: content-box;height: 0;}
+pre {overflow: auto;}
+code,kbd,pre,samp {font-family: monospace, monospace;font-size: 1em;}
+button,input,optgroup,select,textarea {color: inherit;font: inherit;margin: 0;}
+button {overflow: visible;}
+button,select {text-transform: none;}
+button,html input[type="button"],input[type="reset"],input[type="submit"] {-webkit-appearance: button;cursor: pointer;}
+button[disabled],html input[disabled] {cursor: default;}
+button::-moz-focus-inner,input::-moz-focus-inner {border: 0;padding: 0;}
+input {line-height: normal;}
+input[type="checkbox"],input[type="radio"] {box-sizing: border-box;padding: 0;}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {height: auto;}
+input[type="search"] {-webkit-appearance: textfield;-moz-box-sizing: content-box;-webkit-box-sizing: content-box;box-sizing: content-box;}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+fieldset {border: 1px solid #c0c0c0;margin: 0 2px;padding: 0.35em 0.625em 0.75em;}
+legend {border: 0;padding: 0;}
+textarea {overflow: auto;}
+table {border-collapse: collapse;border-spacing: 0;}
+td,th {padding: 0;}
+/* some starter good ideas */
+
+body {font: normal 13px/15px Arial, sans-serif;color: #6a6a6a;}
+header,article,footer {min-width: 310px;max-width: 1060px;padding: 0 5px 10px;margin: 0 auto;}
+article>p,article>div>p {margin: 0 0 30px;line-height: 24px;text-align: justify;font-family: 'Verdana';font-size: 12px;} 
+ul.styled {margin: 0;padding: 0;list-style: none;}
+article{ background-color: #cdcdcd;}
+div.outer{ width: 300px; background-color: blue; display: block; height:100px; margin: 5px; display:table; }
+div.outer div{ background-color: orange; height:70px; border: 1px solid red; display: table-cell; text-align: center; vertical-align: middle; padding: 10px;}
+div.outer div span{ display:inline-block; background-color: red; padding: 5px; vertical-align: middle}
+
+div.license {
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    width: auto;
+    display: inline-block;
+    padding: 15px 20px;
+}
+.right {
+    float: right;
+    margin-left: 20px;
+}
+
+div.license img{ width:209px; height: 113px; }
+div.license p {
+    border: 1px solid #dddddd;
+    padding: 10px 20px 5px 20px;
+    margin-top: 9px;
+    text-align: justify;
+    margin-bottom: 0;
+    line-height: 0;
+	background-color:orange;
+}
+
+.box-logo {
+    display: inline-block;
+    text-indent: -9999px;
+    margin: auto;
+	width: 35px; height: 40px;
+	background-color: red;
+}
+
+div.license p:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+div.menu{display:block; position: relative; padding-left: 200px; padding-right: 2%; border: 1px solid red; height: 50px; overflow: hidden;}
+div.menu a.logo { width: 150px; height: 50px; background-color: green; position: absolute; top: 0; left: 0;}
+div.menu ul {display: table; width: 100%; position: relative; background-color: orange; padding: 0; margin: 0; }
+div.menu ul li {display: table-cell; border: 1px solid red; line-height: 50px; margin: 0; text-align: center;}
+span.mob{display:none;}
+
+.tcell-logo{display: block;text-align: center;text-indent: -9999px; margin: auto;}
+.box-logo{display: inline-block;text-indent: -9999px; margin: auto;}
